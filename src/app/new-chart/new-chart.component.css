@@ -1,0 +1,30 @@
+.custom-annotation {
+  position: absolute;
+}
+:host {
+  display: block;
+  height: 300px;
+}
+div {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+apx-chart {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.customAnnotation {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  height: auto;
+  flex-flow: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 12px;
+}

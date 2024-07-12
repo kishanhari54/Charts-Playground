@@ -1,0 +1,45 @@
+/* Add application styles & imports to this file! */
+.c3-tooltip-container {
+  background: white !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.c3-tooltip-container .tooltip-container {
+  display: flex;
+  max-width: 200px;
+  flex-flow: column;
+}
+.c3-tooltip-container .tooltip-container .risk-score {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+.c3-tooltip-container .tooltip-container.low .risk-score .score-change::before {
+  content: '\25bc';
+  color: green;
+}
+.c3-tooltip-container
+  .tooltip-container.high
+  .risk-score
+  .score-change::before {
+  content: '\25b2';
+  color: red;
+}
+
+.c3-tooltip-container
+  .tooltip-container
+  .risk-level-description
+  .score-risk.low {
+  color: green;
+}
+
+.c3-tooltip-container
+  .tooltip-container
+  .risk-level-description
+  .score-risk.high {
+  color: maroon;
+}

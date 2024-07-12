@@ -1,0 +1,9 @@
+#chart {
+  max-width: 800px;
+  margin: 35px auto;
+}
+
+.apex-annotation-css {
+  background: white;
+  font-size: 30px !important;
+}
